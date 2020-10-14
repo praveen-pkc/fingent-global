@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fingent Global Solutions</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap">
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- responsive css file -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+<body>
+    <main>
+        <section class="top-header">
+            <div class="container-fluid pt-3">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <h1 class="text-capitalize title-main text-white">Dashboard</h1>          
+                        <a href="" class="btn btn-main text-capitalize text-white ml-auto px-3 py-2"><i class="fa fa-plus pr-2"></i>new exchange</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content">                            
+           <div class="container-fluid">
+               <div class="content-top">
+                <div class="row ">
+                   <div class="col-lg-9">
+                       <div class="row">
+                            <div class="col-lg-6 exchanges d-flex">
+                                <div class="card flex-fill">
+                                    <div class="card-body p-3">
+                                        <div class="row">
+                                            <div class="col-4 col-lg-4 ex-header">
+                                                <p class="text-capitalize h6 mb-1">exchanges</p>
+                                                <h1 class="">57</h1>
+                                            </div>
+                                            <div class="col-3 col-lg-3 ex-status">
+                                                <p class="text-capitalize mb-1">active</p>
+                                                <h3 class="">23</h3>
+                                            </div>
+                                            <div class="col-3 col-lg-3 ex-status">
+                                                <p class="text-capitalize mb-1">new</p>
+                                                <h3 class="">10</h3>
+                                            </div>
+                                            <div class="col-2 col-lg-2 pl-0">
+                                                <img src="./assets/flag.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 p-0">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">14</div>
+                                                </div>
+                                                <div class="progress-label text-capitalize pt-1">active exchanges</div>  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 exchange-balance d-flex">
+                                        <div class="card flex-fill">
+                                            <div class="card-body p-3">
+                                                <div class="row">
+                                                    <div class="col-6 col-lg-6 ex-bal-header pr-0">
+                                                        <p class="text-capitalize h6 mb-1">exchange balance</p>
+                                                        <h1 class="">$15K</h1>
+                                                        <div><a href="" class="link text-uppercase">view all transactions</a></div>
+                                                    </div>
+                                                    <div class="col-6 col-lg-6  pr-0 m-auto">
+                                                        <p class="fund-forward mb-2">Funds to Forward</p>
+                                                        <p class="fund-received mb-0">Fund received</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="col-lg-3 icon">
+                            <div class="row">
+                                <div class="col-lg-4 col-4 d-flex">
+                                    <div class="card flex-fill">
+                                        <div class="card-body p-3 text-center">
+                                            <div class="icon-panel py-4">
+                                                <i class="fa fa-user-plus fa-2x"></i>
+                                                <p class="mb-0 pt-1 text-capitalize">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 d-flex">
+                                    <div class="card flex-fill">
+                                        <div class="card-body p-4 text-center">
+                                            <div class="icon-panel py-2">
+                                                <i class="fa fa-user fa-2x"></i>
+                                                <p class="mb-0 pt-1 text-capitalize">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 d-flex">
+                                    <div class="card flex-fill">
+                                        <div class="card-body p-3 text-center">
+                                            <div class="icon-panel py-4">
+                                                <i class="fa fa-refresh fa-2x"></i>
+                                                <p class="mb-0 pt-1 text-capitalize">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 d-flex">
+                    <div class="card modified-exchange my-3 flex-fill">
+                        <div class="card-body">
+                            <h3 class="sub-heading text-capitalize">
+                                    recently modified exchanges
+                            </h3>
+                            <div class="table-responsive mt-5">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase">exchange <br> number</th>
+                                        <th class="text-uppercase">exchanger</th>
+                                        <th class="text-uppercase">exchange <br> type</th>
+                                        <th class="text-uppercase">day in <br> exchange</th>
+                                        <th class="text-uppercase">last milestone</th>
+                                        <th class="text-uppercase">fees due</th>
+                                        <th class="text-uppercase">no of pending <br> tasks</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>200001</td>
+                                        <td>200001Charles G, Knight <a href="">Spring Plaza, LLC</a></td>
+                                        <td>Delayed</td>
+                                        <td>34th</td>
+                                        <td>In Identification Period</td>
+                                        <td>$800</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>200001</td>
+                                        <td>200001Charles G, Knight <a href="">Spring Plaza, LLC</a></td>
+                                        <td>Delayed</td>
+                                        <td>34th</td>
+                                        <td>In Identification Period</td>
+                                        <td>$800</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>200001</td>
+                                        <td>200001Charles G, Knight <a href="">Spring Plaza, LLC</a></td>
+                                        <td>Delayed</td>
+                                        <td>34th</td>
+                                        <td>In Identification Period</td>
+                                        <td>$800</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>200001</td>
+                                        <td>200001Charles G, Knight <a href="">Spring Plaza, LLC</a></td>
+                                        <td>Delayed</td>
+                                        <td>34th</td>
+                                        <td>In Identification Period</td>
+                                        <td>$800</td>
+                                        <td>5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="" class="link footer text-uppercase pt-4"> view exchanges</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 d-flex">
+                <div class="card events my-3 flex-fill">
+                    <div class="card-body">
+                        <h3 class="sub-heading text-capitalize">
+                                    next 10 events 
+                        </h3>
+                        <div class="event-contents mt-5">
+                            <div class="col-lg-12">
+                                <div class="row item">
+                                    <div class="left d-flex col-lg-2 col-2 text-center p-0">
+                                        <div class="m-auto">
+                                            <span class="bullet mx-auto mt-1"></span>
+                                            <div class="month pt-3">Sep</div>
+                                            <div class="date h5">24</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-10 right p-1 col-9">
+                                        <p class="top-block mb-1">45th day fall on oct 1, 2020 for exchange 20007</p>
+                                        <p class="bottom-block mb-0">
+                                            <span class="text-muted text-capitalize pl-2">
+                                                exchanger : </span>
+                                                spring plaza, LLC 
+                                            <span class="text-muted text-capitalize pl-2">
+                                                name : </span>
+                                                charles G.  
+                                            <span class="text-muted text-capitalize pl-2">
+                                                email : </span>
+                                                example@gmail.com
+                                        </p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row item">
+                                            <div class="left d-flex col-lg-2 col-2 text-center p-0">
+                                                <div class="m-auto">
+                                                    <span class="bullet mx-auto mt-1"></span>
+                                                    <div class="month pt-3">Sep</div>
+                                                    <div class="date h5">24</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-10 right p-1 col-9">
+                                                <p class="top-block mb-1">45th day fall on oct 1, 2020 for exchange 20007</p>
+                                                <p class="bottom-block mb-0">
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        exchanger : </span>
+                                                    spring plaza, LLC 
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                    name : </span>
+                                                    charles G.  
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                    email : </span>
+                                                    example@gmail.com
+                                                      </p>
+                                            </div>
+                                        </div>
+                                        <div class="row item">
+                                            <div class="left d-flex col-lg-2 col-2 text-center p-0">
+                                                <div class="m-auto">
+                                                    <span class="bullet mx-auto mt-1"></span>
+                                                    <div class="month pt-3">Sep</div>
+                                                    <div class="date h5">24</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-10 right p-1 col-9">
+                                                <p class="top-block mb-1">45th day fall on oct 1, 2020 for exchange 20007</p>
+                                                <p class="bottom-block mb-0">
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        exchanger : </span>
+                                                    spring plaza, LLC 
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        name : </span>
+                                                    charles G.  
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        email : </span>
+                                                    example@gmail.com
+                                                      </p>
+                                            </div>
+                                        </div>
+                                        <div class="row item">
+                                            <div class="left d-flex col-lg-2 col-2 text-center p-0">
+                                                <div class="m-auto">
+                                                    <span class="bullet mx-auto mt-1"></span>
+                                                    <div class="month pt-3">Sep</div>
+                                                    <div class="date h5">24</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-10 right p-1 col-9">
+                                                <p class="top-block mb-1">45th day fall on oct 1, 2020 for exchange 20007</p>
+                                                <p class="bottom-block mb-0">
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        exchanger : </span>
+                                                    spring plaza, LLC 
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        name : </span>
+                                                    charles G.  
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        email : </span>
+                                                    example@gmail.com
+                                                      </p>
+                                            </div>
+                                        </div>
+                                        <div class="row item">
+                                            <div class="left d-flex col-lg-2 col-2 text-center p-0">
+                                                <div class="m-auto">
+                                                    <span class="bullet mx-auto mt-1"></span>
+                                                    <div class="month pt-3">Sep</div>
+                                                    <div class="date h5">24</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-10 right p-1 col-9">
+                                                <p class="top-block mb-1">45th day fall on oct 1, 2020 for exchange 20007</p>
+                                                <p class="bottom-block mb-0">
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        exchanger : </span>
+                                                    spring plaza, LLC 
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        name : </span>
+                                                    charles G.  
+                                                    <span class="text-muted text-capitalize pl-2">
+                                                        email : </span>
+                                                    example@gmail.com
+                                                      </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 d-flex">
+                        <div class="card modified-exchange my-3 flex-fill">
+                            <div class="card-body">
+                                <h3 class="sub-heading text-capitalize">
+                                   activities
+                                </h3>
+                                <div class="col-md-12 mt-5 pl-0">
+                                    <div class="step">
+                                        <div class="v-stepper">
+                                            <div class="circle">
+                                            </div>
+                                            <div class="line"></div>
+                                        </div>
+                                        <div class="stepper-content">
+                                            <p class="mb-0 time text-capitalize">now</p>
+                                            <p class="pl-3"> awna westberg created an Exchange <a href="">20001</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <div class="v-stepper">
+                                            <div class="circle">
+                                            </div>
+                                            <div class="line"></div>
+                                        </div>
+                                        <div class="stepper-content">
+                                            <p class="mb-2 time">2 hours ago</p>
+                                            <p class="pl-3"> awna westberg created an Exchange <a href="">20001</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <div class="v-stepper">
+                                            <div class="circle">
+                                            </div>
+                                            <div class="line"></div>
+                                        </div>
+                                        <div class="stepper-content">
+                                            <p class="mb-2 time">10 hours ago</p>
+                                            <p class="pl-3"> awna westberg created an Exchange <a href="">20001</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <div class="v-stepper">
+                                            <div class="circle">
+                                            </div>
+                                            <div class="line"></div>
+                                        </div>
+                                        <div class="stepper-content">
+                                            <p class="mb-2 time">5 days ago</p>
+                                            <p class="pl-3"> awna westberg created an Exchange <a href="">20001</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <div class="v-stepper">
+                                            <div class="circle">
+                                            </div>
+                                            <div class="line"></div>
+                                        </div>
+                                        <div class="stepper-content">
+                                            <p class="mb-2 time">1 month ago</p>
+                                            <p class="pl-3"> awna westberg created an Exchange <a href="">20001</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 d-flex">
+                        <div class="card top-sale-rep my-3 flex-fill">
+                            <div class="card-body">
+                                <h3 class="sub-heading text-capitalize">
+                                    top sales respresentatives
+                                </h3>
+                                <div class="table-responsive mt-5">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-uppercase">representative</th>
+                                                <th class="text-uppercase text-center">exchange value</th>
+                                                <th class="text-uppercase text-center">no. of exchanges</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="text-capitalize">
+                                                <td>Bobby D. brown</td>
+                                                <td class="price text-center"><span>$10k</span></td>
+                                                <td class="qty text-center"><span>6</span> </td>
+                                            </tr>
+                                            <tr class="text-capitalize">
+                                                <td>Bobby D. brown</td>
+                                                <td class="price text-center"><span>$10k</span></td>
+                                                <td class="qty text-center"><span>6</span> </td>
+                                            </tr>
+                                            <tr class="text-capitalize">
+                                                <td>Bobby D. brown</td>
+                                                <td class="price text-center"><span>$10k</span></td>
+                                                <td class="qty text-center"><span>6</span> </td>
+                                            </tr>
+                                            <tr class="text-capitalize">
+                                                <td>Bobby D. brown</td>
+                                                <td class="price text-center"><span>$10k</span></td>
+                                                <td class="qty text-center"><span>6</span> </td>
+                                            </tr>
+                                            <tr class="text-capitalize">
+                                                <td>Bobby D. brown</td>
+                                                <td class="price text-center"><span>$10k</span></td>
+                                                <td class="qty text-center"><span>6</span> </td>
+                                            </tr>
+                                            <tr class="text-capitalize">
+                                                <td>Bobby D. brown</td>
+                                                <td class="price text-center"><span>$10k</span></td>
+                                                <td class="qty text-center"><span>6</span> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Jquery and bootstrap files -->
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

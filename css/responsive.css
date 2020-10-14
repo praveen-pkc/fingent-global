@@ -1,0 +1,5 @@
+@media (max-width:991px) {
+    .content-top .icon,  .content-top .exchange-balance {
+        margin-top:0;
+        }
+    }

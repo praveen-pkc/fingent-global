@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background: #F3F6FB;
+    }
+.img {
+    max-width: 100%;
+    }
+section.top-header {
+    background: url("../assets/bg-pattern.png"), linear-gradient(230deg, #001B6A 0%, #00137E 100%);
+    background-position: center;
+    height: 22vh;
+    border-bottom-left-radius: 2rem;
+    }
+.top-header .title-main {
+    font-size: 26px;
+    font-weight: 500;
+    }
+.top-header .title-main::after {
+    content: ''; 
+    width: 40px;
+    height: 4px;
+    background: #5ca9ff;
+    position: absolute; 
+    display: block;
+    margin-top: 15px;
+    }
+.top-header a.btn {
+    background-image: linear-gradient(69deg, #3DBCF1 0%, #3386DA 91%);
+    box-shadow: 0 3px 10px 2px rgba(0, 52, 123, 0.22);
+    border-radius: 5px;
+    height: 40px;   
+    }
+.top-header a.btn:hover {
+    background: linear-gradient(180deg, #3DBCF1 0%, #3386DA 91%);
+    transition: .7s all;
+    }
+.card {
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem;
+    }
+.exchanges .ex-header p,
+.exchange-balance .ex-bal-header p {
+    color:#00347b;
+    }
+.exchange-balance .ex-bal-header h1 {
+    color:#48b756;
+    }
+
+.exchanges .ex-header h1 {
+    color:#eba35a;
+    }
+.exchanges .ex-status p {
+    font-size: 16px;
+    }
+.exchanges .ex-status h3 {
+    color: #24b7f4;
+    }
+.progress-bar {
+    background:#8176d9;
+    }
+.progress {
+    background: #a2c7ff;
+    height:.3rem;
+    }
+.exchanges .progress-label{
+    font-size: 14px;
+    }
+.content-top .icon,
+.content-top .exchanges,
+.content-top .exchange-balance {
+    margin-top: -7vh;
+    }
+.content-top .icon p {
+    font-size: 12px;
+    }
+.content-top .icon i {
+    color: #6ccbf2;
+    }
+.exchanges .ex-bal-header h1 {
+    color: #48b756;
+    }
+.exchange-balance .fund-forward,
+.exchange-balance .fund-received {
+    font-size: 14px;
+    }
+.exchange-balance .fund-forward::before,
+    .exchange-balance .fund-received::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: .5rem;
+    }
+.exchange-balance .fund-forward::before {
+    background: #f07e5f;
+    }
+.exchange-balance .fund-received::before {
+    background: #f5e1b6;
+    }
+a.link{
+    background: linear-gradient(69deg, #3DBCF1 0%, #3386DA 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 12px;
+}
+.content {
+    background: #F3F6FB;
+    }
+.sub-heading {
+    color: #04080D;
+    font-size: 16px;
+    font-weight: 500;
+    }
+.sub-heading::after {
+     content: ''; 
+    width: 35px;
+    height: 3px;
+    background: #5ca9ff;
+    position: absolute; 
+    display: block;
+    margin-top: 12px;
+    }
+.table {
+    background: #fff;
+    border-radius: 5px;
+    }
+table tbody tr:nth-child(odd) {
+    background-color: #F8FAFE;
+  }
+table tbody tr td {
+    color:#3C5E88;
+    font-size: 14px;
+    font-weight: 400; 
+    border-top: 0;
+    vertical-align: middle!important;
+    border-bottom: 1px solid #c5d5f0;
+    border-top: 0!important;
+    }
+table tbody tr:last-child td {
+    border:none;
+    }
+table thead tr th {
+    font-size: 13px;
+    color: #7c85ba;
+    font-weight: 500;
+    vertical-align: middle!important;
+    border: none!important;
+    } 
+.card.modified-exchange a.footer {
+    font-size: 14px;
+    float: right;
+    }
+span.bullet {
+    width: 10px;
+    height: 10px;
+    background: #3dbbf1;
+    position: absolute;
+    border-radius: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    }
+.card.events .item {
+    border-radius: 10px;
+    border: 2px solid #f2f7ff;
+    font-size: 13px;
+    margin-bottom: .5rem;
+    }
+.card.events .item .left {
+    background: #fafcff;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    }
+.card.events .item .bottom-block .bullet-hole {
+    border: 1px solid #000000;
+    border-radius: 100%;
+    width:10px;
+    height:10px;
+    }
+.card.events .item .bottom-block .text-muted {
+    color: #939dbc!important;
+    font-weight: 500;
+    } 
+    /* row activites */
+.step {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+.v-stepper {
+    position: relative;
+  }
+.step .circle {
+    border-radius: 100%;
+    width: 10px;    
+    height: 10px;
+    text-align: center;
+    display: inline-block;
+    background:#3dbbf1;
+    }
+.step .line {
+    top: 17px;
+    left: 5px;
+    height: 100%;
+    position: absolute;
+    border-left: 1px solid #dfdfdf;
+    }
+.step:last-child .line {
+    border-color: white;
+    z-index: -1;
+    }
+.stepper-content {
+    margin-left: 1rem;
+    font-weight: 400;
+    }
+.step .stepper-content p {
+    font-size: 14px;
+    font-weight: 500;
+    color:#515456;;
+    }
+.step .stepper-content p a {
+    font-weight: 600;
+    color: #155091;
+    }
+.step .stepper-content .time {
+    margin-top: 4px;
+    color:#3C5E88;
+    font-size: 12px;
+    font-weight: 500;
+    }
+
+.top-sale-rep .table span {
+    background: #e6edf9;;
+    padding: .3rem 1.4rem;
+    font-weight: 500;
+    border-radius: 10px;
+    }
+.top-sale-rep .table .qty span {
+    color:#f05e5e;
+    }
+.top-sale-rep .table .price span {
+    color:#14a514;
+    }
+/* scroll-bar  */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    }
+::-webkit-scrollbar-track {
+    background: #fff;
+    }
+::-webkit-scrollbar-thumb {
+    background: #c5d5f0;
+    }
